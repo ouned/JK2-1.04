@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ai_main.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="ai_util.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="ai_wpnav.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="bg_misc.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="bg_panimate.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="bg_pmove.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="bg_saber.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="bg_slidemove.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="bg_weapons.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="g_active.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="g_arenas.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="g_bot.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="g_client.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="g_cmds.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="g_combat.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="g_items.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="g_log.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="g_main.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="g_mem.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="g_misc.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="g_missile.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="g_mover.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="g_object.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="g_saga.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="g_session.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="g_spawn.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="g_svcmds.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="g_syscalls.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="g_target.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="g_team.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="g_trigger.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="g_utils.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="g_weapon.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="q_math.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="q_shared.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="w_force.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="w_saber.c">
+      <Filter>game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ai_main.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="anims.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="be_aas.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="be_ai_char.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="be_ai_chat.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="be_ai_gen.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="be_ai_goal.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="be_ai_move.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="be_ai_weap.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="be_ea.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="bg_lib.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="bg_local.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="bg_public.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="bg_saga.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="bg_weapons.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="botlib.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="chars.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="g_local.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="g_public.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="g_team.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="inv.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="match.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="q_shared.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="surfaceflags.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="syn.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="w_saber.h">
+      <Filter>game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="game">
+      <UniqueIdentifier>{496cdbe8-9b5d-4a3b-aabd-2499a6358f72}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

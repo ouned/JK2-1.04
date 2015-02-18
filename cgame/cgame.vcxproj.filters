@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="cgame">
+      <UniqueIdentifier>{29a9e6b8-c991-4d08-85cf-db51079ff676}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="animtable.h">
+      <Filter>cgame</Filter>
+    </ClInclude>
+    <ClInclude Include="cg_lights.h">
+      <Filter>cgame</Filter>
+    </ClInclude>
+    <ClInclude Include="cg_local.h">
+      <Filter>cgame</Filter>
+    </ClInclude>
+    <ClInclude Include="cg_media.h">
+      <Filter>cgame</Filter>
+    </ClInclude>
+    <ClInclude Include="cg_public.h">
+      <Filter>cgame</Filter>
+    </ClInclude>
+    <ClInclude Include="fx_local.h">
+      <Filter>cgame</Filter>
+    </ClInclude>
+    <ClInclude Include="tr_types.h">
+      <Filter>cgame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\bg_local.h">
+      <Filter>cgame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\bg_public.h">
+      <Filter>cgame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\bg_saga.h">
+      <Filter>cgame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\bg_weapons.h">
+      <Filter>cgame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\ai_main.h">
+      <Filter>cgame</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cg_consolecmds.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_draw.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_drawtools.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_effects.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_ents.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_event.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_info.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_light.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_localents.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_main.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_marks.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_newDraw.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_playeranimate.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_players.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_playerstate.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_predict.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_saga.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_scoreboard.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_servercmds.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_snapshot.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_syscalls.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_turret.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_view.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_weaponinit.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_weapons.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="fx_blaster.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="fx_bowcaster.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="fx_bryarpistol.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="fx_demp2.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="fx_disruptor.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="fx_flechette.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="fx_force.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="fx_heavyrepeater.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="fx_rocketlauncher.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\bg_misc.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\bg_panimate.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\bg_pmove.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\bg_saber.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\bg_slidemove.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\bg_weapons.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\q_math.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\q_shared.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\ui_shared.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

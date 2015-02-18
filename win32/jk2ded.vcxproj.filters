@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="botlib">
+      <UniqueIdentifier>{48aa5560-617e-4f4a-84f0-babd4a699c60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="qcommon">
+      <UniqueIdentifier>{a7db2900-b0f0-4fc6-ba55-2e3845541432}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ghoul2">
+      <UniqueIdentifier>{0125f55d-e24c-4d6a-9081-a1cbe8014606}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="null">
+      <UniqueIdentifier>{2abdd48f-a47d-4887-b403-9f35cfe7caa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer">
+      <UniqueIdentifier>{6e104000-d18b-4ac6-9319-9fc03e948466}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="server">
+      <UniqueIdentifier>{bc24c37d-cecf-47bc-99ed-51b0076e4033}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win32">
+      <UniqueIdentifier>{47936774-2355-4d39-b1b0-a54557333517}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\botlib\aasfile.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\botlib\be_aas_bsp.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\botlib\be_aas_cluster.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\botlib\be_aas_debug.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\botlib\be_aas_def.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\botlib\be_aas_entity.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\botlib\be_aas_file.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\botlib\be_aas_funcs.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\botlib\be_aas_main.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\botlib\be_aas_move.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\botlib\be_aas_optimize.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\botlib\be_aas_reach.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\botlib\be_aas_route.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\botlib\be_aas_routealt.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\botlib\be_aas_sample.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\botlib\be_ai_weight.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\botlib\be_interface.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\botlib\l_crc.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\botlib\l_libvar.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\botlib\l_log.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\botlib\l_memory.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\botlib\l_precomp.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\botlib\l_script.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\botlib\l_struct.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\botlib\l_utils.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\qcommon\chash.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\qcommon\cm_local.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\qcommon\cm_patch.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\qcommon\cm_polylib.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\qcommon\cm_public.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\qcommon\disablewarnings.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\qcommon\game_version.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\qcommon\MiniHeap.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\qcommon\qcommon.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\qcommon\qfiles.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\qcommon\RoffSystem.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\qcommon\sstring.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\qcommon\strip.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\qcommon\tags.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\qcommon\unzip.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\qcommon\vm_local.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ghoul2\G2.h">
+      <Filter>ghoul2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ghoul2\G2_gore.h">
+      <Filter>ghoul2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ghoul2\G2_local.h">
+      <Filter>ghoul2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ghoul2\ghoul2_shared.h">
+      <Filter>ghoul2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\server\server.h">
+      <Filter>server</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\botlib\be_aas_bspq3.cpp">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\botlib\be_aas_cluster.cpp">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\botlib\be_aas_debug.cpp">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\botlib\be_aas_entity.cpp">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\botlib\be_aas_file.cpp">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\botlib\be_aas_main.cpp">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\botlib\be_aas_move.cpp">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\botlib\be_aas_optimize.cpp">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\botlib\be_aas_reach.cpp">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\botlib\be_aas_route.cpp">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\botlib\be_aas_routealt.cpp">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\botlib\be_aas_sample.cpp">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\botlib\be_ai_char.cpp">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\botlib\be_ai_chat.cpp">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\botlib\be_ai_gen.cpp">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\botlib\be_ai_goal.cpp">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\botlib\be_ai_move.cpp">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\botlib\be_ai_weap.cpp">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\botlib\be_ai_weight.cpp">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\botlib\be_ea.cpp">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\botlib\be_interface.cpp">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\botlib\l_crc.cpp">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\botlib\l_libvar.cpp">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\botlib\l_log.cpp">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\botlib\l_memory.cpp">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\botlib\l_precomp.cpp">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\botlib\l_script.cpp">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\botlib\l_struct.cpp">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\qcommon\cm_load.cpp">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\qcommon\cm_patch.cpp">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\qcommon\cm_polylib.cpp">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\qcommon\cm_test.cpp">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\qcommon\cm_trace.cpp">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\qcommon\cmd.cpp">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\qcommon\common.cpp">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\qcommon\cvar.cpp">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\qcommon\files.cpp">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\qcommon\huffman.cpp">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\qcommon\md4.cpp">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\qcommon\msg.cpp">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\qcommon\net_chan.cpp">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\qcommon\q_math.cpp">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\qcommon\q_shared.cpp">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\qcommon\RoffSystem.cpp">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\qcommon\strip.cpp">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\qcommon\unzip.cpp">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\qcommon\vm.cpp">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\qcommon\vm_interpreted.cpp">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\qcommon\vm_x86.cpp">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ghoul2\G2_API.cpp">
+      <Filter>ghoul2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ghoul2\G2_bolts.cpp">
+      <Filter>ghoul2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ghoul2\G2_bones.cpp">
+      <Filter>ghoul2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ghoul2\G2_misc.cpp">
+      <Filter>ghoul2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ghoul2\G2_surfaces.cpp">
+      <Filter>ghoul2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\null\null_client.cpp">
+      <Filter>null</Filter>
+    </ClCompile>
+    <ClCompile Include="..\null\null_glimp.cpp">
+      <Filter>null</Filter>
+    </ClCompile>
+    <ClCompile Include="..\null\null_input.cpp">
+      <Filter>null</Filter>
+    </ClCompile>
+    <ClCompile Include="..\null\null_renderer.cpp">
+      <Filter>null</Filter>
+    </ClCompile>
+    <ClCompile Include="..\null\null_snddma.cpp">
+      <Filter>null</Filter>
+    </ClCompile>
+    <ClCompile Include="..\null\win_main.cpp">
+      <Filter>null</Filter>
+    </ClCompile>
+    <ClCompile Include="..\renderer\matcomp.c">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\renderer\tr_backend.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\renderer\tr_ghoul2.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\renderer\tr_image.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\renderer\tr_init.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\renderer\tr_main.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\renderer\tr_mesh.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\renderer\tr_model.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\renderer\tr_shader.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\server\sv_bot.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\server\sv_ccmds.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\server\sv_client.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\server\sv_game.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\server\sv_init.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\server\sv_main.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\server\sv_net_chan.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\server\sv_snapshot.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\server\sv_world.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\win32\win_net.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\win32\win_shared.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
